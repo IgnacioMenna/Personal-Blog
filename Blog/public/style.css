@@ -1,0 +1,158 @@
+body {
+  font-family: 'Comic Neue', cursive, sans-serif;
+  background-color: #fafafa;
+}
+
+#app{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px 10px 50px;
+  border: black 2px solid;
+  border-radius: 10px;
+}
+
+#prim{
+  display: flex;
+  justify-content: space-between;
+}
+
+#prim h1{
+  color: black;
+  font-size: 2.5em;
+  text-align: center;
+  cursor: pointer;
+}
+
+#add{
+  color: black;
+  font-weight: bold;
+  font-size: 1.4em;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 3.5%;
+}
+
+.parr{
+  color: black;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.sec{
+  padding-right: 0px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec h2{
+  color: grey;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.cards{
+  display: flex;
+  margin: 20px 0;
+  padding: 5px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2em;
+  border: none;
+  color: black;
+  text-decoration: none;
+}
+
+.actions{
+  padding-right: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-btn{
+  display: flex;
+  padding: 20px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2em;
+  border: none;
+  color: grey;
+  text-decoration: none;
+}
+
+.delete-btn{
+  display: flex;
+  padding: 20px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 2em;
+  border: none;
+  color: grey;
+  background-color: #fafafa;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.rectangle{
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+#title{
+  margin-top: 1%;
+  padding: 5px 20px;
+  width: 80%;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 2em;
+  border: black 4px solid;
+  border-radius: 5px;
+  font-family: 'Comic Neue', cursive, sans-serif;
+}
+
+#date{
+  margin-top: 1%;
+  padding: 5px 20px;
+  width: 80%;
+  font-weight: bold;
+  font-size: 2em;
+  border: black 4px solid;
+  border-radius: 5px;
+  font-family: 'Comic Neue', cursive, sans-serif;
+}
+
+#content{
+  margin-top: 1%;
+  padding: 5px 20px;
+  width: 80%;
+  height: 300px;
+  font-weight: bold;
+  font-size: 2em;
+  border: black 4px solid;
+  border-radius: 5px;
+  font-family: 'Comic Neue', cursive, sans-serif;
+}
+
+#boton{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px 20px 100px;
+}
+
+#boton{
+  background-color: #fafafa;
+  margin: 1%;
+  margin-left: -0.1%;
+  width: 12%;
+  height: auto;
+  cursor: pointer;
+  padding: 10px 20px 10px; 
+  color: black;
+  font-family: 'Comic Neue', cursive, sans-serif;
+  border-radius: 5px;
+  border: black 4px solid;
+  font-weight: bold;
+  font-size: 2em;
+}
